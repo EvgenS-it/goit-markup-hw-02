@@ -14,16 +14,16 @@ ol {
   list-style: none;
 }
 
-.visually-hidden {
-  /* position: absolute;
+/* .visually-hidden {
+  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
   white-space: nowrap;
-  overflow: hidden; */
-}
+  overflow: hidden;
+} */
 
 /** =============== HEADER ===============  */
 
@@ -98,6 +98,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -152,8 +153,11 @@ ol {
 
 .team-list {
 }
+
 .team-item {
+  background-color: #ffffff;
 }
+
 .team-img {
 }
 .team-subtitle {

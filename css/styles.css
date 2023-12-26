@@ -14,17 +14,6 @@ ol {
   list-style: none;
 }
 
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  overflow: hidden;
-} */
-
 /** =============== HEADER ===============  */
 
 .logo {
@@ -111,6 +100,15 @@ ol {
 /** =============== BENEFITS ===============  */
 
 .benefits {
+}
+
+.benefits-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .benefits-list {
